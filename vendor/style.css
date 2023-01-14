@@ -1,0 +1,390 @@
+.body {
+  background: #2A2C2F;
+}
+
+.header {
+  max-width: 1184px;
+  height: 52px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 48px 56px 48px;
+}
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+  margin: 0;
+}
+
+
+.header__lang {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__lang-link {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  padding-right: 18px;
+}
+
+.header__lang-link:last-child {
+  padding-right: 0px;
+  text-decoration-line: none;
+}
+
+.page {
+  max-width: 1280px;
+  width: 100%;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.lead {
+  margin: 0 auto;
+  max-width: 984px;
+  width: 100%;
+}
+
+
+.lead__image {
+  max-width: 100%;
+}
+
+.lead__title {
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  max-width: 720px;
+}
+
+.lead__subtitle {
+  margin: 0 auto;
+  max-width: 640px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  padding: 32px 0 56px 0;
+}
+
+.lead__image {
+  width: 100%;
+}
+
+.lead__caption {
+  margin: 0;
+  padding-top: 8px;
+  height: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.intro {
+  width: calc(100% - 2*148px);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.intro__title {
+  margin: 0;
+  padding-top: 92px;
+  max-width: 690px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+}
+
+.intro__text {
+  margin: 0;
+  padding-top: 40px;
+  max-width: 690px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+}
+
+.intro__list {
+  margin: 0;
+  padding: 0;
+  padding-top: 33px;
+  max-width: 690px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.intro__list-text {
+  list-style-type: none;
+}
+
+.photo-grid {
+  margin: 0 auto;
+  padding-top: 92px;
+  max-width: 1184px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 284px);
+  grid-template-rows: repeat(auto-fit, 213px);
+  gap: 16px;
+}
+
+.photo__item {
+  max-width: 100%;
+
+}
+
+.places {
+  max-width: 984px;
+  margin: 0 auto;
+  padding-top: 92px;
+}
+
+.place {
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 460px);
+  row-gap: 48px;
+  column-gap: 40px;
+}
+
+.place__title {
+  margin: 0;
+  max-width: 460px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.place__website {
+  margin: 0;
+  max-width: 456px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.place__image {
+  max-width: 100%;
+  grid-row: 2 / 3;
+}
+
+.place__url-heading {
+  margin: 0;
+  width: 456px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #AAAAAA;
+}
+
+.place__link {
+  margin: 0;
+  padding-top: 12px;
+  width: 456px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.place__paragraph {
+  margin: 0;
+  width: 484px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  padding-bottom: 26px;
+}
+
+.place__paragraph:last-child {
+  padding-bottom: 0;
+}
+
+.cover {
+  padding-bottom: 92px;
+  margin: 0 auto;
+}
+
+.cover__title {
+  margin: 0 auto;
+  width: 560px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  z-index: 1;
+}
+
+.cover__subtitle {
+  margin: 0 auto;
+  width: 360px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  z-index: 1;
+}
+
+.cover__link {
+  background-image: url(../../russian-travel/images/cover-trains.jpg);
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1184px;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover__link::before {
+  content: '';
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.cover__link:hover::before {
+  opacity: 0.8;
+}
+
+.footer {
+  width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 18px;
+  padding-bottom: 24px;
+}
+
+.footer__column-link {
+  width: 50px;
+  height: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+}
+
+.footer__column-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column-list {
+  padding-right: 18px;
+}
+
+.footer__column-list:last-child {
+  padding-right: 0px;
+}
+
+.footer__copyright {
+  width: 186px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  margin: 0;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 28px 48px 48px 48px;
+  }
+
+  .intro {
+    width: calc(100% - 48px*2);
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  .header {
+    padding: 28px 24px 48px 24px;
+  }
+
+  .intro {
+    width: calc(100% - 24px*2);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 16px 16px 48px 16px;
+  }
+
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .lead__subtitle {
+    padding-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 0 0 56px 0;
+  }
+
+  .intro {
+    width: calc(100% - 16px*2);
+  }
+}
