@@ -1,0 +1,27 @@
+.footer__column-list {
+  padding-right: 18px;
+}
+
+.footer__column-list:last-child {
+  padding-right: 0px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__column-list {
+    padding-bottom: 32px;
+  }
+
+  .footer__column-list:last-of-type {
+    padding-bottom: 48px;
+  }
+}
+
+@media screen and (min-width:321px) and (max-width: 767px) {
+  .footer__column-list {
+    padding-bottom: 32px;
+  }
+
+  .footer__column-list:last-of-type {
+    padding-bottom: 48px;
+  }
+}
