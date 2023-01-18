@@ -7,7 +7,7 @@
 <p>Ссылка на макет в Figma: https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=62863%3A752&t=W81ep3toluNEWB7D-0
 </p>
 
-<p>Ссылка на проект: https://semyon129.github.io/russian-travel/
+<p>[Ссылка на проект]([url](https://semyon129.github.io/russian-travel/)): https://semyon129.github.io/russian-travel/
 </p>
 
 
