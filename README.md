@@ -4,7 +4,7 @@
 
 Отдых в России привлекает все больше как русских любителей активного отдыха, так и гостей со всего мира.</p>
 
-[Макет в Figma](https://semyon129.github.io/russian-travel/](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=62863%3A752) 
+[Макет в Figma ](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=62863%3A752&t=REiPn0DC0R0Ay2Yp-0) 
 
 [Проект](https://semyon129.github.io/russian-travel/)
 
